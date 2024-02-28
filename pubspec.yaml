@@ -13,9 +13,8 @@ dependencies:
   json_serializable: ^6.7.1
   json_annotation: ^4.8.1
   l: ^4.0.2
-  shared_preferences: ^2.2.2
   hive: ^2.2.3
-  google_generative_ai: ^0.2.1
+  translator: ^1.0.0
 
   # path: ^1.8.0
 
