@@ -1,5 +1,6 @@
 import 'package:learn_structure_g10/services/extensions_service.dart';
 import 'package:learn_structure_g10/services/language_service.dart';
+import 'package:learn_structure_g10/services/navigation_service.dart';
 
 import 'menu/main_menu.dart';
 
@@ -11,6 +12,7 @@ class MyApp {
     required Language language,
 }){
     LanguageService.setLanguage = language;
+    Navigator.initialValue = home;
     initialRoute = routes;
     _runApp(home);
   }
